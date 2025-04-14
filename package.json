@@ -1,0 +1,18 @@
+{
+  "name": "marp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "marp": "marp",
+    "marp-preview": "marp dogs.md --html --theme ./my-theme.css --preview",
+    "marp-export": "marp dogs.md --html --theme ./my-theme.css --pdf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.2"
+  }
+}
